@@ -56,6 +56,7 @@ const {keyword}=route.params
 }
 .card:hover{
   background-color: rgb(89, 234, 92);
+  cursor: pointer;
 }
 
 
