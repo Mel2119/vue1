@@ -29,7 +29,9 @@
 }
 `)
 const route=useRoute()
-const {keyword}=route.params
+// const { keyword } = route.params; // Destructuring assignment
+
+
 </script>
 
 <style scoped>

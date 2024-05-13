@@ -11,7 +11,7 @@ const router=createRouter({
          component:Home
        },
        {
-        path:"/rickandmorty",
+        path:"/rickandmorty/:key",
         name:"rickandmorty",
         component:rickandmorty
       }
