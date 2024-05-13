@@ -3,7 +3,7 @@
   import {RouterLink} from 'vue-router'
   import {ref} from 'vue'
   var keyword=ref("")
-  var RH=ref("/Searchresult/" +keyword)
+  // var RH=ref("/Searchresult/" +keyword)
 </script>
 <template>
     <div class="flex  justify-center mt-24">
@@ -14,7 +14,7 @@
     <input type="text" v-model="keyword" class="flex-grow outline-none focus:ring-2 focus:ring-blue-500 focus:ring-opacity-50 rounded-md pl-2 flex justify-cneter" placeholder="Search here..." />
   </div>
   <div class="flex flex-row space-x-44 items-center">
-    <RouterLink :to="`/Searchresult/ ${keyword}`"><button class="bg-blue-300 shadow-md h-10 rounded-lg flex ml-96 mt-10 w-28 pl-1 items-center">Google search</button></RouterLink>
+    <RouterLink :to="`/rickandmorty/${keyword}`"><button class="bg-blue-300 shadow-md h-10 rounded-lg flex ml-96 mt-10 w-28 pl-1 items-center">Google search</button></RouterLink>
    <button class="bg-blue-300 shadow-md h-10 rounded-lg flex ml-96 mt-10 w-32 pl-1  items-center">I'm feeling lucky</button>
   </div>
   <p class="ml-96 mt-8">Google offered in <span class="text-red-600">Amharic</span> <span class="text-blue-600">Afannn orommo</span> <span class="text-green-600">Somalia</span></p>

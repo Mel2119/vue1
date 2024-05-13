@@ -78,11 +78,16 @@
    
 </template>
 
-<script>
-import { useRoute } from "vue-router";
+<script setup>
+// import {useRoute} from "vue-router";
 
-  const route=useRoute()
-  const {keyword}=route.key
+
+
+
+//   const route=useRoute()
+//   const {keyword}=route.params
+ 
+//   console.log(keyword)
 </script>
 
 <style>
